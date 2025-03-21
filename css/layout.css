@@ -1,10 +1,10 @@
 @charset 'utf-8';
-@import url('./reset.css');
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plaster&display=swap');
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plaster&display=swap");
 
 :root {
-  --main-color: #ff3d00;
-  --sub-color: #2600ff;
+  --main-color: #0166fd;
+  --sub-color: #ffffff;
 }
 /* 드래그 했을때 */
 ::selection {
@@ -24,7 +24,7 @@
   background-color: var(--main-color);
 }
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 21px;
   font-weight: 300;
   color: #fff;
@@ -50,7 +50,7 @@ header {
 }
 /* 로고 */
 h1 {
-  font-family: 'Plaster', system-ui;
+  font-family: "Plaster", system-ui;
   font-weight: 400;
   font-size: 25px;
   line-height: 90px;
@@ -78,7 +78,7 @@ nav > ul > li > a {
   transition: opacity 0.3s;
 }
 nav > ul > li::after {
-  content: 'line';
+  content: "line";
   font-size: 0;
   display: block;
   width: 40px;
@@ -145,11 +145,11 @@ section {
 /* 메인비주얼 */
 .visual {
   height: 100vh;
-  background-color: #ff3d00;
+  background-color: var(--main-color);
   overflow: hidden;
 }
 .visual_title {
-  font-family: 'Alumni Sans', sans-serif;
+  font-family: "Alumni Sans", sans-serif;
   font-size: 12vw;
   font-style: italic;
   font-weight: 700;
@@ -384,7 +384,7 @@ section {
   flex: 1 1 0;
 }
 .blur_banner h2::before {
-  content: 'line';
+  content: "line";
   font-size: 0;
   display: block;
   width: 60px;
@@ -796,7 +796,7 @@ section {
   height: 60px;
   margin: 0 auto;
   margin-top: 100px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: transparent;
   border: 1px solid #e5e5e5;
   border-radius: 30px;
@@ -825,7 +825,7 @@ footer .con {
   align-items: center;
 }
 footer h2 {
-  font-family: 'Plaster', system-ui;
+  font-family: "Plaster", system-ui;
   font-weight: 400;
   font-size: 25px;
 }
